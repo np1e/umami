@@ -12,6 +12,7 @@
   "scripts": {
     "dev": "next dev",
     "build": "npm-run-all build-tracker compile-lang copy-db-schema build-db-client build-app",
+    "export": "next export",
     "start": "next start",
     "build-app": "next build",
     "build-tracker": "rollup -c rollup.tracker.config.js",
